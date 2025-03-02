@@ -12,7 +12,7 @@ describe("Test valid user login", () => {
     cy.contains("Login to your account");
     // Enter correct email address and password
     cy.get("input[data-qa='login-email']").type("mailtotest@mail.com");
-    cy.get("input[data-qa='login-passoword']").type("test123");
+    cy.get('[data-qa="login-password"]').type("test123");
 
     //Click 'login' button
     cy.get("button[data-qa='login-button']").click();
