@@ -1,4 +1,17 @@
+
+
 {
+  "name": "cypress-testscripts",
+  "version": "1.0.0",
+  "description": "Cypress end-to-end tests",
+  "scripts": {
+    "build": "echo 'No build required'",
+    "start": "echo 'Starting application'",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  
+
   "devDependencies": {
     "@faker-js/faker": "^9.5.1",
     "cypress": "^14.1.0"
