@@ -1,5 +1,5 @@
-describe("Test valid user login", () => {
-    it("Verify user login with valid credentials", () => {
+describe("Test invalid user login", () => {
+    it("Verify user login with invalid credentials", () => {
       //Navigate to url 'http://automationexercise.com'
       cy.visit("https://automationexercise.com/");
   
