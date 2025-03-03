@@ -11,8 +11,8 @@ describe("Test invalid user login", () => {
       //Verify 'Login to your account' is visible
       cy.contains("Login to your account");
       // Enter correct email address and password
-      cy.get("input[data-qa='login-email']").type("mailtotest@mail.com");
-      cy.get('[data-qa="login-password"]').type("test1234");
+     cy.login("mailtotest@mail.com","test1234")
+
   
       //Click 'login' button
       cy.get("button[data-qa='login-button']").click();
